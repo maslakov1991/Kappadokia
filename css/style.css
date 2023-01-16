@@ -162,6 +162,8 @@ ol{
     position: relative;
 }
 .trip__content {
+    width: 50%;
+    padding-right: 55px;
 }
 .trip__container {
     max-width: 1220px;
@@ -183,8 +185,6 @@ ol{
 .trip__title span {
     margin-left: 245px;
 }
-.title {
-}
 .trip__list {
     margin: 5px 0;
     font-size: 24px;
@@ -193,8 +193,6 @@ ol{
 .trip__list-title {
     font-weight: 400;
     margin-bottom: 20px;
-}
-.trip__list-item {
 }
 .trip__btn {
     font-weight: 300;
@@ -208,6 +206,4 @@ ol{
 .trip__slider {
     width: 50%;
     margin-left: auto;
-}
-.trip__item {
 }
