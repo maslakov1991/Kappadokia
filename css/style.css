@@ -90,6 +90,9 @@ ol {
     height: 30px;
     left: 0;
 }
+.header__phone:hover {
+    text-decoration: underline;
+}
 .header__title {
     padding-top: 130px;
     text-align: center;
@@ -253,5 +256,152 @@ ol {
 .price {
     background-image: url(../images/baloons.svg);
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center right 4%;
+}
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contacts__date,
+.contacts__price {
+    font-family: "Balqis";
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 100px;
+    color: #e2ab3f;
+}
+.contacts__price {
+    margin-left: 120px;
+}
+.contacts__date span,
+.contacts__price span {
+    display: block;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-top: -10px;
+    margin-left: 200px;
+}
+.contacts__date span {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.contacts__price span {
+    font-style: normal;
+}
+.contacts__form {
+    max-width: 383px;
+    margin: 0 auto;
+}
+.contacts__form-title {
+    font-family: "Roboto Condensed";
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.contacts__form-input {
+    font-family: "Roboto Condensed";
+    display: block;
+    border: 1px solid #e2ab3f;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+.contacts__form-input::placeholder {
+    color: #000000;
+}
+.contacts__form-btn {
+    font-family: "Roboto Condensed";
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    border: 1px solid #e2ab3f;
+    background-color: transparent;
+    padding: 11px 45px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contacts__form-btn:hover {
+    scale: 1.1;
+    background-color: rgb(243, 243, 235);
+}
+.footer {
+    background-image: url(../images/footer-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding-top: 96px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__text {
+    font-family: "Balqis";
+    font-size: 86px;
+    line-height: 115px;
+}
+.footer__contacts {
+    width: 356px;
+    height: 527px;
+    background-image: url(../images/footer-baloon.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.footer__contacts-title {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Balqis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 115px;
+    color: #e2ab3f;
+}
+.footer__phone,
+.footer__email{
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+}
+.footer__phone::before,
+.footer__email::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -5px;
+}
+.footer__phone::before{
+    background-image: url(../images/footer-phone.svg);
+}
+.footer__email::before{
+    background-image: url(../images/footer-mail.svg);
+}
+.footer__phone{
+    margin-bottom: 20px;
+}
+.footer__socials{
+    margin-top: 38px;
+}
+.footer__socials a{
+    margin: 0 7px;
 }
