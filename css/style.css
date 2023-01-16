@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 ul,
-ol{
+ol {
     list-style: none;
 }
 
@@ -115,7 +115,7 @@ ol{
 .fairy-tale__slider {
     width: 50%;
 }
-.fairy-tale__title span{
+.fairy-tale__title span {
     margin-left: 185px;
 }
 .slick-btn {
@@ -155,7 +155,7 @@ ol{
 .fairy-tale__body-title {
     font-weight: 400;
 }
-.fairy-tale__text{
+.fairy-tale__text {
     padding: 10px 0;
 }
 .trip__inner {
@@ -198,7 +198,7 @@ ol{
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
-    border: 1px solid #E2AB3F;
+    border: 1px solid #e2ab3f;
     background-color: transparent;
     text-transform: uppercase;
     padding: 11px 53px;
@@ -206,4 +206,52 @@ ol{
 .trip__slider {
     width: 50%;
     margin-left: auto;
+}
+.hotel__title span {
+    margin-left: 115px;
+}
+.hotel__inner {
+    display: flex;
+}
+.hotel__image {
+    margin-right: 100px;
+}
+.hotel__content {
+}
+.hotel__text {
+    margin-bottom: 20px;
+}
+.hotel__gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotel__gallery a {
+    margin-top: 50px;
+}
+.price__title span {
+    margin-left: 120px;
+}
+.price__inner {
+    display: flex;
+}
+.price__included {
+    margin-right: 70px;
+    width: 530px;
+}
+.price__included-title,
+.price__excluded-title {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.price__list-item {
+    margin-bottom: 20px;
+}
+.price {
+    background-image: url(../images/baloons.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
 }
